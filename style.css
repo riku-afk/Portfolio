@@ -1,0 +1,107 @@
+body {
+    margin: auto;
+    padding: auto;
+    font-family: Arial, sans-serif;
+    background-image: url("bg.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.profile-container img {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    margin: 10px;
+}
+
+.greetings {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-radius: 15px;
+    
+}
+.headerclass{
+    display: flex;
+}
+h1 {
+    color: white;
+    margin-bottom: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.cell {
+    border: 1px solid black;
+    padding: 10px;
+}
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 24px;
+    border-radius: 10%;
+    border:2px white;
+    padding: 10px;
+    transition: all 0.3 ease;
+}
+
+.socials a:hover {
+    color: red; 
+}
+h2{
+    color: white;
+    size: 20px;
+}
+.skills{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+ul {
+    list-style-type: none; 
+    padding-left: 20px; 
+}
+
+ul li {
+    position: relative;
+    padding-left: 30px; 
+    color: white; 
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px; 
+    background-color: white; 
+    border-radius: 50%; 
+}
+.skilltab{
+    padding-left: 20px;
+}
+
